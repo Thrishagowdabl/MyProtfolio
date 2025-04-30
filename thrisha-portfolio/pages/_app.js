@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }) {
         </aside>
 
         {/* Main content */}
-        <main className="flex-1 bg-gray-900 text-white p-8">
+        <main className="flex-1 bg-gray-900 text-white px-4 py-8 md:px-8">
           <Component {...pageProps} />
         </main>
       </div>
